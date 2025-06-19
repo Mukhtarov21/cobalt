@@ -171,5 +171,10 @@ def main():
         except Exception as e:
             print(f"\nОшибка: {str(e)}")
 
+#if __name__ == "__main__":
+  #  main()
+
+
+
 if __name__ == "__main__":
-    main()
+    app.run(debug=True)
